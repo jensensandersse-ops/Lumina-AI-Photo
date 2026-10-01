@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Camera Outer Frame -->
+    <path
+        android:pathData="M35,36 L43,36 L46,31 L62,31 L65,36 L73,36 C77.4,36 81,39.6 81,44 L81,72 C81,76.4 77.4,80 73,80 L35,80 C30.6,80 27,76.4 27,72 L27,44 C27,39.6 30.6,36 35,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="31"
+                android:endX="81"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E0E7FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Camera Outer Lens Rim -->
+    <path
+        android:pathData="M54,58m-17,0a17,17 0 1,1 34,0a17,17 0 1,1 -34,0"
+        android:fillColor="#311B92" />
+
+    <!-- Lens Glass Gradient -->
+    <path
+        android:pathData="M54,58m-13,0a13,13 0 1,1 26,0a13,13 0 1,1 -26,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="41"
+                android:startY="45"
+                android:endX="67"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="0.5" android:color="#7C4DFF" />
+                <item android:offset="1.0" android:color="#FF4081" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lens Flare / Pupil -->
+    <path
+        android:pathData="M51,55m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0"
+        android:fillColor="#80FFFFFF" />
+    <path
+        android:pathData="M49,53m-2,0a2,2 0 1,1 4,0a2,2 0 1,1 -4,0"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- Top Right Flash/Sensor Dot -->
+    <path
+        android:pathData="M72,43m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0"
+        android:fillColor="#00E5FF" />
+
+    <!-- Primary AI Magic Sparkle Star (Top Right) -->
+    <path
+        android:pathData="M77,28 C77,32 79,34 83,34 C79,34 77,36 77,40 C77,36 75,34 71,34 C75,34 77,32 77,28 Z"
+        android:fillColor="#FFD700" />
+
+    <!-- Secondary Sparkle Star (Top Left) -->
+    <path
+        android:pathData="M31,27 C31,29.5 32.5,31 35,31 C32.5,31 31,32.5 31,35 C31,32.5 29.5,31 27,31 C29.5,31 31,29.5 31,27 Z"
+        android:fillColor="#00E5FF" />
+
+    <!-- Tiny Sparkle (Bottom Left) -->
+    <path
+        android:pathData="M23,66 C23,67.5 24,68.5 25.5,68.5 C24,68.5 23,69.5 23,71 C23,69.5 22,68.5 20.5,68.5 C22,68.5 23,67.5 23,66 Z"
+        android:fillColor="#FFFFFF" />
+</vector>

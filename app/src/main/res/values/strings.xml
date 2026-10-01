@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lumina AI Photo</string>
+    <string name="title_enhance">AI Enhancer</string>
+    <string name="title_tools">AI Magic Tools</string>
+    <string name="title_history">Recent Edits</string>
+    <string name="btn_select_photo">Select Photo</string>
+    <string name="btn_try_sample">Try Sample</string>
+    <string name="btn_enhance_now">Enhance Photo</string>
+    <string name="btn_save_export">Save &amp; Export</string>
+    <string name="btn_watch_ad">Watch Ad (+3 Credits)</string>
+    <string name="credits_label">%d Credits Left</string>
+    <string name="pro_badge">PRO</string>
+</resources>
